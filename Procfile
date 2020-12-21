@@ -1,2 +1,1 @@
-web: gunicorn pages_project.wsgi --log-file -
-worker: views.py
+web: gunicorn helloworld123.wsgi --log-file -
